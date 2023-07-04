@@ -2,7 +2,7 @@ import React from 'react'
 import Image from '../upload/FGorangeNew.png'
 const ResetPassword = () => {
     return (
-        <div>
+        <div className='main-div'>
             <section className="bg-gray-50 dark:bg-gray-900">
                 <div className="w-full p-6 bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md dark:bg-gray-800 dark:border-gray-700 sm:p-8">
                     <div className='flex justify-center border-b-[1px] border-gray-300 pb-[20px]'>

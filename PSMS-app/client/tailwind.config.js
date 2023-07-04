@@ -5,6 +5,12 @@ export default {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    extend: {
+      colors: {
+        "dark-purple": "#081A51",
+        'light-white': 'rgba(255,255,255,0.18)'
+      }
+    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
