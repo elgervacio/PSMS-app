@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div>
-        {/* <Sidebar /> */}
+        <Sidebar />
         <Login />
         {/* <RegisterForm /> */}
         {/* <ResetPassword /> */}
@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App
+
