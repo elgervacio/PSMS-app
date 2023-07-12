@@ -95,7 +95,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  /* font-weight: 400; */
   margin: 0;
   padding: 0;
   color-scheme: light dark;
@@ -120,8 +120,28 @@
 }
 
 
+.card-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
 
-
+.card1 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
